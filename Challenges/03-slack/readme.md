@@ -1,1 +1,1 @@
-Send the judge of the event a giph when you are done.
+Send a giph of done to your cohort slack channel.
