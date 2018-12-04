@@ -123,7 +123,7 @@ export default class Form extends Component {
           <input type="radio" name="radio" value="yes" onChange={this.handleChange} />
         </div>
         <div className="form-input">
-          <label htmlFor="">Password: </label>
+          <label htmlFor="">password: </label>
           <input type="password" name="password" onChange={this.handleChange} />
         </div>
         <button onClick={this.handleSubmit}>Submit</button>
