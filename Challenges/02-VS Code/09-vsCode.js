@@ -1,16 +1,17 @@
-// rename the person variable to human everywhere in this document
+// rearange these function into numerical order, so one is first, then two then three, then four
 
-const person = {
-  name: 'Bob Ross',
-  age: 52,
-};
-
-if (person.name === 'Bob Ross') {
-  person.age = Infinity;
-} else {
-  person.name = 'Bob Ross';
+function two() {
+  console.log('im function two');
 }
 
-for (let i = 0; person.name.length; i++) {
-  console.log(person.name[i]);
+function four() {
+  console.log('im function four');
+}
+
+function three() {
+  console.log('im function three');
+}
+
+function one() {
+  console.log('im function one');
 }
