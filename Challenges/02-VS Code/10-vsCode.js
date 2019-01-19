@@ -1,3 +1,7 @@
-// Copy the below line 100 times
-
-const string = 'interstella 5555';
+const example = "copy this line exactly 100 times"
+const example = "copy this line exactly 100 times"
+const example = "copy this line exactly 100 times"
+const example = "copy this line exactly 100 times"
+const example = "copy this line exactly 100 times"
+const example = "copy this line exactly 100 times"
+const example = "copy this line exactly 100 times"

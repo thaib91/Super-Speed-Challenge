@@ -1,1 +1,0 @@
-Send the judge of the event a gif when you are done.

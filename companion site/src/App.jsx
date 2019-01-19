@@ -3,19 +3,30 @@ import { HashRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
 import PageOne from './components/PageOne';
 import PageTwo from './components/PageTwo';
-import Form from './components/Form'
+import Form from './components/Form';
+import Home from './components/Home';
 
 class App extends Component {
+  constructor() {
+    super();
+
+    this.state = {
+      url: Math.floor(Math.random() * 1000000000)
+    }
+  }
 
 
   render() {
     return (
-
       <div className="App">
         <HashRouter>
           <Switch>
-            <Route path="/verylongandannoyingstringthatmakesnosense" component={PageOne} />
-            <Route path="/426f6220526f7373206973207" component={PageTwo} />
+            <Route exact path="/" component={Home} />
+            <Route
+              path="/verylongandannoyingstringthatmakesnosense"
+              render={() => <PageOne url={this.state.url} />}
+            />
+            <Route path={`/${this.state.url}`} component={PageTwo} />
             <Route path="/form" component={Form} />
           </Switch>
         </HashRouter>

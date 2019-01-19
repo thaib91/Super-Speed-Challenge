@@ -20,18 +20,8 @@ export default class pageOne extends Component {
   submitOne = () => {
     if (this.state.inputOne === '426f 6220 526f 7373 206 973207 46865206f72 69676 96e616c 20676 16e677 3746572') {
       this.setState({
-        inputOne: "http://localhost:3000/#/426f6220526f7373206973207",
+        inputTwo: `http://localhost:3000/#/${this.props.url}`,
         correctOne: true
-      })
-    } else {
-      alert('wrong string')
-    }
-  }
-
-  submitTwo = () => {
-    if (this.state.inputTwo === 'Bob Ross is the origial Ganster') {
-      this.setState({
-        inputTwo: "Ha! you did it!",
       })
     } else {
       alert('wrong string')
@@ -52,18 +42,13 @@ export default class pageOne extends Component {
             />
             <button onClick={this.submitOne} className="usefull">Submit</button>
           </div>
-          {this.state.correctOne ?
-            (
-              <>
-                <h2>Second Input</h2>
-                <div className="input">
-                  <input type="text" onChange={this.inputs} name="inputTwo" value={this.state.inputTwo} />
-                  <button className="usefull" onClick={this.submitTwo}>Submit</button>
-                </div>
-              </>
-            )
-            : ''
-          }
+
+          <h2>Second Url</h2>
+          <div className="input">
+            <input type="text" value={this.state.inputTwo} />
+            <button className="usefull" onClick={this.submitTwo}>Submit</button>
+          </div>
+
           <button className="worthless">worthless button</button>
           <button className="worthless">worthless button</button>
           <button className="worthless">worthless button</button>

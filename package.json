@@ -1,0 +1,23 @@
+{
+  "name": "speeed-test",
+  "version": "1.0.0",
+  "description": "The challenge of the ages. This challenge is designed to test your speed and effecieny skill with many aspects of your comptuer usage. It includes google chrome, vsCode, opening applications, and your ability to move between windows. To complete the challenge and get a chamption tshirt, you must complete this challenge without using your mouse once, and under 3 minutes 50 seconds. It must be proctored.",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rasbandit/speeed-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rasbandit/speeed-test/issues"
+  },
+  "homepage": "https://github.com/Rasbandit/speeed-test#readme"
+}

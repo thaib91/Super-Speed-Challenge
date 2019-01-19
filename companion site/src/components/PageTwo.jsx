@@ -19,8 +19,8 @@ export default class PageTwo extends Component {
   render() {
     return (
       <div className="App-header">
-        <button onClick={this.showCode}>Get code</button>
         <input value={this.state.clicked ? this.state.secretCode : ''} />
+        <button onClick={this.showCode}>Get code</button>
         <button className="worthless">worthless button</button>
         <button className="worthless">worthless button</button>
         <button className="worthless">worthless button</button>
