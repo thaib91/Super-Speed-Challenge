@@ -11,7 +11,7 @@ To ensure that that no cheating happens the participants may only have 3 windows
   - VsCode
     - Only a single vs code window can be open
     - No files aloud to be open
-    - `npm start` has been started inside the companion site.
+    - Run `node index.js` to get the companion site running
 
   - Google Chrome
     - Only one window can be opened
@@ -21,4 +21,4 @@ To ensure that that no cheating happens the participants may only have 3 windows
     - The focused conversation can not be on either of the two required messages
     - Gifs can not be pre loaded into the input fields
 
-A companion site has been created to test specific aspects of your computer knowlege. The site has already been built for you and an express server is ready to host it on port `3000` All you need to do is run `node` and the site will be hosted. A few of the WebBrowser challenges require you to visit pages of the site and perform tasks.
+A companion site has been created to test specific aspects of your computer knowlege. The site has already been built for you and an express server is ready to host it on `localhost:3000` All you need to do is run `node index.js` and the site will be accesible. A few of the WebBrowser challenges require you to visit pages of this site and perform tasks.
