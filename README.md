@@ -1,4 +1,4 @@
-# Todd's Time Trial
+# Super Speed Challenge
 
 ## Overview
 
