@@ -2,7 +2,7 @@
 
 ## Overview
 
-The challenge of the ages. This challenge is designed to test your speed and effecieny skill with many aspects of your comptuer usage. It includes google chrome, vsCode, opening applications, and your ability to move between windows. To complete the challenge and get a chamption tshirt, you must complete this challenge without using your mouse once, and under 4 minutes 15 seconds. It must be proctored.
+The challenge of the ages. This challenge is designed to test your speed and effecieny skill with many aspects of your comptuer usage. It includes google chrome, vsCode, opening applications, and your ability to move between windows. To complete the challenge and get a chamption tshirt, you must complete this challenge without using your mouse, and under 4 minutes 15 seconds, and It must be proctored.
 
 ## Setup
 
