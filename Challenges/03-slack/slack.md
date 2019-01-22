@@ -1,2 +1,2 @@
-Send a gif to the event manager.
-Then, send a Gif to the event channel to signify that you have finished
+Send a message to the event manager.
+Then, send a message to the event channel to signify that you have finished
