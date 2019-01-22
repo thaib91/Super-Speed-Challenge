@@ -1,3 +1,5 @@
-On this web page find the word "Braxat"
+Open up 3 tabs in google chrome and search for the 3 people below
 
-https://en.wikipedia.org/wiki/List_of_Advanced_Dungeons_%26_Dragons_2nd_edition_monsters#TSR2615_%E2%80%93_Planes_of_Conflict_(1995)
+- Bob Ross
+- Mr Rogers
+- Steve Irwin
