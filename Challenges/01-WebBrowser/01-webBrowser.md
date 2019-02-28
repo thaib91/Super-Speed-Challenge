@@ -12,3 +12,4 @@ paste the string below in the input, minus the quotes
 - Copy the new text that appears.
 - Paste that string in this document.
 
+Bob Ross is the origial Ganster

@@ -1,16 +1,16 @@
-// rename the person variable to human everywhere in this document
+// rename the human variable to human everywhere in this document
 
-const person = {
+const human = {
   name: 'Bob Ross',
   age: 52,
 };
 
-if (person.name === 'Bob Ross') {
-  person.age = Infinity;
+if (human.name === 'Bob Ross') {
+  human.age = Infinity;
 } else {
-  person.name = 'Bob Ross';
+  human.name = 'Bob Ross';
 }
 
-for (let i = 0; person.name.length; i++) {
-  console.log(person.name[i]);
+for (let i = 0; human.name.length; i++) {
+  console.log(human.name[i]);
 }

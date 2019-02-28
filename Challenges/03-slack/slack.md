@@ -1,2 +1,1 @@
-Send a message to the event manager.
-Then, send a message to the event channel to signify that you have finished
+Send a message to 45 channel that you finished
